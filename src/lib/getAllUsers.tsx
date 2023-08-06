@@ -1,5 +1,3 @@
-import React from 'react'
-
 const GetAllUsers = async () => {
   const response = await fetch('https://jsonplaceholder.typicode.com/users');
 
